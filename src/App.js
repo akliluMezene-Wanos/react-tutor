@@ -6,19 +6,19 @@ function App() {
       date: new Date(2021, 4, 12, 17, 39, 0, 0),
       developer: "Aklilu",
       project: "StockMarket Backend App",
-      count: 55,
+      count: 5,
     },
     {
       date: new Date(2021, 4, 11, 19, 32, 0, 0),
       developer: "Joni",
       project: "Fanzine Mobile App",
-      count: 44,
+      count: 0,
     },
     {
       date: new Date(2021, 4, 11, 18, 40, 0, 0),
       developer: "Theodoros",
       project: "Fanzine Mobile App",
-      count: 33,
+      count: 3,
     },
     {
       date: new Date(2021, 4, 12, 17, 30, 0, 0),
@@ -30,7 +30,7 @@ function App() {
       date: new Date(2021, 4, 12, 15, 23, 0, 0),
       developer: "Theodoros",
       project: "StockMarket Mobile App",
-      count: 11,
+      count: 0,
     }
   ]
 
