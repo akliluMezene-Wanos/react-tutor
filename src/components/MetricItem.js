@@ -1,18 +1,13 @@
 import "./MetricItem.css"
 
-const MetricItem = () => {
-    let metricDate=new Date(2021, 4, 12, 17, 30, 0, 0);
-    let metricDeveloper = "Aklilu"
-    let project = "StockMarket Mobile App"
-    let count = 3
-
+const MetricItem = (props) => {
     return <div className="metric-item">
-    <div className="metric-item__date">{metricDate.toISOString()}</div>
+    <div className="metric-item__date">{props.date.toISOString()}</div>
     <div className="metric-item__metric">
-        <div>{metricDeveloper}</div>
-        <h3>{project}</h3>
+        <div>{props.developer}</div>
+        <h3>{props.project}</h3>
     </div>
-    <div className="metric-item__count">{count}</div>
+    <div className="metric-item__count">{props.count}</div>
 </div>
 }
 
